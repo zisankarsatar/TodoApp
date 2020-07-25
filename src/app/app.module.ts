@@ -38,7 +38,7 @@ import { FormsModule } from '@angular/forms';
     MatSnackBarModule
   ],
   providers: [
-    {provide: "apiUrl", useValue: "https://reina-todo-app.herokuapp.com"}
+    {provide: "apiUrl", useValue: "https://api.limantech.com/todo"}
   ],
   bootstrap: [AppComponent]
 })
