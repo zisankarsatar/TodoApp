@@ -20,8 +20,8 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     HomeComponent,
-    NotFoundComponent,
-    AboutComponent
+    AboutComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
