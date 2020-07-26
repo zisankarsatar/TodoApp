@@ -486,8 +486,8 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\PROJE\WorkingProject\TodosApp-Angular7\TodoApp-WithAPI\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-module.exports = __webpack_require__(/*! D:\PROJE\WorkingProject\TodosApp-Angular7\TodoApp-WithAPI\src\styles.scss */"./src/styles.scss");
+__webpack_require__(/*! D:\PROJE\WorkingProject\TodosApp-Angular7\TodoApp-WithAPI - Kopya\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+module.exports = __webpack_require__(/*! D:\PROJE\WorkingProject\TodosApp-Angular7\TodoApp-WithAPI - Kopya\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
