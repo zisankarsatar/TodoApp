@@ -10,9 +10,9 @@
             <div class="col-md-6">
                 <form class="example-form">
                     <mat-form-field class="example-full-width">
-                        <input matInput placeholder="Yapılacak yeni madde ekle" #newTodo>
+                        <input matInput placeholder="Add the new task...." #newTodo>
                     </mat-form-field>
-                    <button mat-raised-button color="primary" type="button" (click)="addTodo(newTodo)">Ekle</button>
+                    <button mat-raised-button color="primary" type="button" (click)="addTodo(newTodo)">Add</button>
                 </form>
             </div>
         </div>
@@ -20,7 +20,7 @@
             <div class="col-md-12">
                 <mat-card class="d-flex">
                     <div class="example-container">
-                        <h5>Yapılacaklar</h5>
+                        <h5>To Do</h5>
                         <div
                           cdkDropList
                           #pendingList="cdkDropList"
@@ -42,7 +42,7 @@
                       </div>
 
                       <div class="example-container">
-                        <h5>Devam Ediyor</h5>
+                        <h5>In Progress</h5>
                       
                         <div
                           cdkDropList
@@ -65,7 +65,7 @@
                       </div>
 
                       <div class="example-container">
-                        <h5>Bitti</h5>
+                        <h5>Done</h5>
                       
                         <div
                           cdkDropList
@@ -91,7 +91,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center mt-2">
-                <small>Copyright 2020 Todo List App</small>
+                <small>Copyright 2020 Reina Todo List App</small>
             </div> 
         </div>
     </div>

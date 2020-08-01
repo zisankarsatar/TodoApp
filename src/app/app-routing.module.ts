@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { noUndefined } from '@angular/compiler/src/util';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
