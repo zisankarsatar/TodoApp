@@ -16,12 +16,14 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, './coverage/TodosApp-Angular7'),
+      //dir: require('path').join(__dirname, './coverage/TodosApp-Angular7'),
+      dir: require('path').join(__dirname, './coverage/TodosApp-Angular7/TodoApp-WithAPI/src/index.html'),
       reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
-    port: 9876,
+    //port: 9876,
+    port:8080,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,

@@ -17,8 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-           // "port":8080,
-            "outputPath": "dist/TodosApp-Angular7",
+            //"outputPath": "dist/TodosApp-Angular7,
+            "outputPath": "dist/TodosApp-Angular7/TodoApp-WithAPI",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
