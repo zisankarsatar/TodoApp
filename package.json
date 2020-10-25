@@ -14,9 +14,9 @@
   "dependencies": {
     "@angular/animations": "^10.0.7",
     "@angular/cdk": "^10.1.1",
+    "@angular/cli": "^10.0.5",
     "@angular/common": "^10.0.7",
     "@angular/compiler": "^10.0.7",
-    "@angular/cli": "^10.0.5",
     "@angular/compiler-cli": "^10.0.7",
     "@angular/core": "^10.0.7",
     "@angular/forms": "^10.0.7",
@@ -27,13 +27,14 @@
     "bootstrap": "^4.5.0",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
+    "object-path": "^0.11.5",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "typescript": "~3.9.5",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.1000.5",
+    "@angular-devkit/build-angular": "^0.1002.0",
     "@angular/animation": "^4.0.0-beta.8",
     "@angular/cli": "^10.0.5",
     "@angular/compiler-cli": "^10.0.7",
